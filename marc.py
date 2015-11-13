@@ -314,7 +314,7 @@ def process_file(f, lim=2000000):
 
 if __name__ == '__main__':
 
-    if len(sys.argv) < 2 or sys.argv[1] not in ('sql', 'json', 'xmlpipe2', 'html'):
+    if len(sys.argv) < 2 or sys.argv[1] not in ('sql', 'json', 'xmlpipe2', 'html','tsv'):
         print >> sys.stderr, """
 usage:
     marc.py sql|json|xmlpipe2|html [input]
